@@ -194,6 +194,11 @@ header .navigation-container .logo a {
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  header .navigation-container .logo {
+    text-align: center;
+  }
+}
 header .navigation-container nav {
   width: 50%;
   display: flex;
@@ -210,7 +215,19 @@ header .navigation-container nav a {
     margin: 1rem;
   }
 }
+@media (max-width: 768px) {
+  header .navigation-container nav {
+    width: 75%;
+    margin: 1rem;
+  }
+}
 @media (max-width: 500px) {
+  header .navigation-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
   header .navigation-container {
     flex-direction: column;
     align-items: center;

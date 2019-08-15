@@ -20,6 +20,10 @@ header {
       @media @mobile {
         text-align: center;
       }
+
+      @media @tablet {
+        text-align: center;
+      }
     }
 
     nav {
@@ -36,9 +40,19 @@ header {
         width: 75%;
         margin: 1rem;
       }
+
+      @media @tablet {
+        width: 75%;
+        margin: 1rem;
+      }
     }
 
     @media @mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media @tablet {
       flex-direction: column;
       align-items: center;
     }
